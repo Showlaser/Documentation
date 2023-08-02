@@ -1,0 +1,365 @@
+<mxfile host="embed.diagrams.net" modified="2023-07-10T14:06:10.561Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="dcfE9m7gG2fVJYOWyuEp" version="21.6.1" type="embed">
+  <diagram id="uKzDUQyo15C9r32CDfOA" name="Page-1">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="plhv3NgXaz1uQwHLdoHJ-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ts09NpvepvUMqNH7My1E-1" target="plhv3NgXaz1uQwHLdoHJ-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts09NpvepvUMqNH7My1E-1" value="Get settings from EEPROM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="365.5" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zlr25zJZHgwPeCzjPNTh-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ts09NpvepvUMqNH7My1E-2" target="teSalxfIM5kBYEWw8LJH-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts09NpvepvUMqNH7My1E-2" value="Test connection to controller" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="365" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zlr25zJZHgwPeCzjPNTh-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ts09NpvepvUMqNH7My1E-4" target="Ts09NpvepvUMqNH7My1E-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts09NpvepvUMqNH7My1E-4" value="Move galvo&#39;s" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="572.5" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts09NpvepvUMqNH7My1E-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ts09NpvepvUMqNH7My1E-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="810.25" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ts09NpvepvUMqNH7My1E-15" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="Ts09NpvepvUMqNH7My1E-9">
+          <mxGeometry x="-0.0633" y="-1" relative="1" as="geometry">
+            <mxPoint x="-10" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EmIdqMnqQ9r8d723kDUw-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ts09NpvepvUMqNH7My1E-6" target="EmIdqMnqQ9r8d723kDUw-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EmIdqMnqQ9r8d723kDUw-3" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="EmIdqMnqQ9r8d723kDUw-2">
+          <mxGeometry x="-0.2177" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ts09NpvepvUMqNH7My1E-6" value="Galvo feedback output&lt;br&gt;&amp;nbsp;is changing" style="rhombus;whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="554" y="670" width="157.5" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Ts09NpvepvUMqNH7My1E-10" value="Set laser status to defect&lt;br&gt;and block the laser from executing commands" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="777.75" y="700" width="147.5" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="8NCnI8PHLG-3C-RLOYPh-5" value="Laser statuses Teensy" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;strokeColor=default;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-680" y="130" width="330" height="1360" as="geometry" />
+        </mxCell>
+        <mxCell id="8NCnI8PHLG-3C-RLOYPh-6" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="8NCnI8PHLG-3C-RLOYPh-5">
+          <mxGeometry y="30" width="330" height="83" as="geometry" />
+        </mxCell>
+        <mxCell id="8NCnI8PHLG-3C-RLOYPh-7" value="&lt;b&gt;State&lt;/b&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="8NCnI8PHLG-3C-RLOYPh-6">
+          <mxGeometry width="110" height="83" as="geometry">
+            <mxRectangle width="110" height="83" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8NCnI8PHLG-3C-RLOYPh-8" value="&lt;b&gt;Description&lt;/b&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="8NCnI8PHLG-3C-RLOYPh-6">
+          <mxGeometry x="110" width="110" height="83" as="geometry">
+            <mxRectangle width="110" height="83" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8NCnI8PHLG-3C-RLOYPh-9" value="&lt;b&gt;Solution&lt;/b&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="8NCnI8PHLG-3C-RLOYPh-6">
+          <mxGeometry x="220" width="110" height="83" as="geometry">
+            <mxRectangle width="110" height="83" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8NCnI8PHLG-3C-RLOYPh-10" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="8NCnI8PHLG-3C-RLOYPh-5">
+          <mxGeometry y="113" width="330" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="8NCnI8PHLG-3C-RLOYPh-11" value="Defect" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=14;" vertex="1" parent="8NCnI8PHLG-3C-RLOYPh-10">
+          <mxGeometry width="110" height="350" as="geometry">
+            <mxRectangle width="110" height="350" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8NCnI8PHLG-3C-RLOYPh-12" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;An hardware defect has been detected and the laser is locked due to safety reasons&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=14;" vertex="1" parent="8NCnI8PHLG-3C-RLOYPh-10">
+          <mxGeometry x="110" width="110" height="350" as="geometry">
+            <mxRectangle width="110" height="350" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8NCnI8PHLG-3C-RLOYPh-13" value="Check feedback signal from galvo&#39;s and check controller output" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=14;align=center;" vertex="1" parent="8NCnI8PHLG-3C-RLOYPh-10">
+          <mxGeometry x="220" width="110" height="350" as="geometry">
+            <mxRectangle width="110" height="350" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8NCnI8PHLG-3C-RLOYPh-14" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="8NCnI8PHLG-3C-RLOYPh-5">
+          <mxGeometry y="463" width="330" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="8NCnI8PHLG-3C-RLOYPh-15" value="Ready" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=14;" vertex="1" parent="8NCnI8PHLG-3C-RLOYPh-14">
+          <mxGeometry width="110" height="350" as="geometry">
+            <mxRectangle width="110" height="350" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8NCnI8PHLG-3C-RLOYPh-16" value="The laser is ready to receive and process commands that are received" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=14;" vertex="1" parent="8NCnI8PHLG-3C-RLOYPh-14">
+          <mxGeometry x="110" width="110" height="350" as="geometry">
+            <mxRectangle width="110" height="350" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8NCnI8PHLG-3C-RLOYPh-17" value="N.A." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=14;align=center;" vertex="1" parent="8NCnI8PHLG-3C-RLOYPh-14">
+          <mxGeometry x="220" width="110" height="350" as="geometry">
+            <mxRectangle width="110" height="350" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="teSalxfIM5kBYEWw8LJH-19" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="8NCnI8PHLG-3C-RLOYPh-5">
+          <mxGeometry y="813" width="330" height="412" as="geometry" />
+        </mxCell>
+        <mxCell id="teSalxfIM5kBYEWw8LJH-20" value="Connection to controller lost" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=14;" vertex="1" parent="teSalxfIM5kBYEWw8LJH-19">
+          <mxGeometry width="110" height="412" as="geometry">
+            <mxRectangle width="110" height="412" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="teSalxfIM5kBYEWw8LJH-21" value="The laser has no connection to the controller" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=14;" vertex="1" parent="teSalxfIM5kBYEWw8LJH-19">
+          <mxGeometry x="110" width="110" height="412" as="geometry">
+            <mxRectangle width="110" height="412" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="teSalxfIM5kBYEWw8LJH-22" value="1. Check configured controller IP address in the laser settings&lt;br&gt;&lt;br&gt;2. Check if a network cable is connected to the laser&lt;br&gt;&lt;br&gt;3. Check if the network interface of the laser is working" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=14;align=left;" vertex="1" parent="teSalxfIM5kBYEWw8LJH-19">
+          <mxGeometry x="220" width="110" height="412" as="geometry">
+            <mxRectangle width="110" height="412" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="plhv3NgXaz1uQwHLdoHJ-10" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="8NCnI8PHLG-3C-RLOYPh-5">
+          <mxGeometry y="1225" width="330" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="plhv3NgXaz1uQwHLdoHJ-11" value="Not configured" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=14;" vertex="1" parent="plhv3NgXaz1uQwHLdoHJ-10">
+          <mxGeometry width="110" height="135" as="geometry">
+            <mxRectangle width="110" height="135" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="plhv3NgXaz1uQwHLdoHJ-12" value="The laser is not yet configured" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=14;" vertex="1" parent="plhv3NgXaz1uQwHLdoHJ-10">
+          <mxGeometry x="110" width="110" height="135" as="geometry">
+            <mxRectangle width="110" height="135" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="plhv3NgXaz1uQwHLdoHJ-13" value="1. Configure the laser using the OLED screen and rotary encoder" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=14;align=left;" vertex="1" parent="plhv3NgXaz1uQwHLdoHJ-10">
+          <mxGeometry x="220" width="110" height="135" as="geometry">
+            <mxRectangle width="110" height="135" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="teSalxfIM5kBYEWw8LJH-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="teSalxfIM5kBYEWw8LJH-1" target="teSalxfIM5kBYEWw8LJH-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="teSalxfIM5kBYEWw8LJH-5" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="teSalxfIM5kBYEWw8LJH-4">
+          <mxGeometry x="-0.0667" y="-2" relative="1" as="geometry">
+            <mxPoint x="1" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zlr25zJZHgwPeCzjPNTh-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="teSalxfIM5kBYEWw8LJH-1" target="zlr25zJZHgwPeCzjPNTh-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zlr25zJZHgwPeCzjPNTh-13" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="zlr25zJZHgwPeCzjPNTh-10">
+          <mxGeometry x="-0.1409" y="-1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="teSalxfIM5kBYEWw8LJH-1" value="Controller reacts to&lt;br&gt;test message&lt;br&gt;from laser" style="rhombus;whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="348" y="380" width="155" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="teSalxfIM5kBYEWw8LJH-3" value="Set laser status to connection to controller lost" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="572.5" y="425" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jowz4eYxVe9TDLc-qTf2-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jowz4eYxVe9TDLc-qTf2-6" target="jowz4eYxVe9TDLc-qTf2-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jowz4eYxVe9TDLc-qTf2-6" value="Set laser status to ready" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="572.5" y="1180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jowz4eYxVe9TDLc-qTf2-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jowz4eYxVe9TDLc-qTf2-9" target="jowz4eYxVe9TDLc-qTf2-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jowz4eYxVe9TDLc-qTf2-9" value="Laser receives command from controller" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="573.5" y="1284" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jowz4eYxVe9TDLc-qTf2-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jowz4eYxVe9TDLc-qTf2-15" target="jowz4eYxVe9TDLc-qTf2-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jowz4eYxVe9TDLc-qTf2-19" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="jowz4eYxVe9TDLc-qTf2-18">
+          <mxGeometry x="-0.3143" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jowz4eYxVe9TDLc-qTf2-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jowz4eYxVe9TDLc-qTf2-15" target="jowz4eYxVe9TDLc-qTf2-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jowz4eYxVe9TDLc-qTf2-23" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="jowz4eYxVe9TDLc-qTf2-21">
+          <mxGeometry x="-0.1405" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jowz4eYxVe9TDLc-qTf2-15" value="Command can be processed (no errors while processing)" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="566.5" y="1384" width="135" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="jowz4eYxVe9TDLc-qTf2-17" value="Reject command and inform controller" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="773.5" y="1424" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jowz4eYxVe9TDLc-qTf2-20" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="573.5" y="1584" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="plhv3NgXaz1uQwHLdoHJ-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="plhv3NgXaz1uQwHLdoHJ-1" target="Ts09NpvepvUMqNH7My1E-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="plhv3NgXaz1uQwHLdoHJ-9" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="plhv3NgXaz1uQwHLdoHJ-3">
+          <mxGeometry x="-0.4778" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="plhv3NgXaz1uQwHLdoHJ-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="plhv3NgXaz1uQwHLdoHJ-1" target="plhv3NgXaz1uQwHLdoHJ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="plhv3NgXaz1uQwHLdoHJ-8" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="plhv3NgXaz1uQwHLdoHJ-5">
+          <mxGeometry x="-0.2258" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="plhv3NgXaz1uQwHLdoHJ-1" value="EEPROM settings empty" style="rhombus;whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="368" y="140" width="115" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="zlr25zJZHgwPeCzjPNTh-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="plhv3NgXaz1uQwHLdoHJ-4" target="zlr25zJZHgwPeCzjPNTh-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="plhv3NgXaz1uQwHLdoHJ-4" value="Set status to Not configured" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="200" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="plhv3NgXaz1uQwHLdoHJ-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="plhv3NgXaz1uQwHLdoHJ-6" target="Ts09NpvepvUMqNH7My1E-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="plhv3NgXaz1uQwHLdoHJ-6" value="Laser powered on" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="-50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zlr25zJZHgwPeCzjPNTh-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zlr25zJZHgwPeCzjPNTh-3" target="Ts09NpvepvUMqNH7My1E-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zlr25zJZHgwPeCzjPNTh-3" value="Show menu on OLED screen and let user enter settings" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="200" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zlr25zJZHgwPeCzjPNTh-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zlr25zJZHgwPeCzjPNTh-9" target="Ts09NpvepvUMqNH7My1E-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zlr25zJZHgwPeCzjPNTh-9" value="Hardware self check" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="365.5" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w1cTL_5jENOIp_l14Hvm-1" value="Laser statuses Watchdog (Nano)" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;strokeColor=default;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-330" y="130" width="330" height="1360" as="geometry" />
+        </mxCell>
+        <mxCell id="w1cTL_5jENOIp_l14Hvm-2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="w1cTL_5jENOIp_l14Hvm-1">
+          <mxGeometry y="30" width="330" height="83" as="geometry" />
+        </mxCell>
+        <mxCell id="w1cTL_5jENOIp_l14Hvm-3" value="&lt;b&gt;State&lt;/b&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="w1cTL_5jENOIp_l14Hvm-2">
+          <mxGeometry width="110" height="83" as="geometry">
+            <mxRectangle width="110" height="83" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w1cTL_5jENOIp_l14Hvm-4" value="&lt;b&gt;Description&lt;/b&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="w1cTL_5jENOIp_l14Hvm-2">
+          <mxGeometry x="110" width="110" height="83" as="geometry">
+            <mxRectangle width="110" height="83" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w1cTL_5jENOIp_l14Hvm-5" value="&lt;b&gt;Solution&lt;/b&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="w1cTL_5jENOIp_l14Hvm-2">
+          <mxGeometry x="220" width="110" height="83" as="geometry">
+            <mxRectangle width="110" height="83" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w1cTL_5jENOIp_l14Hvm-6" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="w1cTL_5jENOIp_l14Hvm-1">
+          <mxGeometry y="113" width="330" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="w1cTL_5jENOIp_l14Hvm-7" value="Ready" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=14;" vertex="1" parent="w1cTL_5jENOIp_l14Hvm-6">
+          <mxGeometry width="110" height="350" as="geometry">
+            <mxRectangle width="110" height="350" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w1cTL_5jENOIp_l14Hvm-8" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;The watchdog confirmed a safe working state&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=14;" vertex="1" parent="w1cTL_5jENOIp_l14Hvm-6">
+          <mxGeometry x="110" width="110" height="350" as="geometry">
+            <mxRectangle width="110" height="350" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w1cTL_5jENOIp_l14Hvm-9" value="N.A." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=14;align=center;" vertex="1" parent="w1cTL_5jENOIp_l14Hvm-6">
+          <mxGeometry x="220" width="110" height="350" as="geometry">
+            <mxRectangle width="110" height="350" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w1cTL_5jENOIp_l14Hvm-10" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="w1cTL_5jENOIp_l14Hvm-1">
+          <mxGeometry y="463" width="330" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="w1cTL_5jENOIp_l14Hvm-11" value="HardwareCheck" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=14;" vertex="1" parent="w1cTL_5jENOIp_l14Hvm-10">
+          <mxGeometry width="110" height="350" as="geometry">
+            <mxRectangle width="110" height="350" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w1cTL_5jENOIp_l14Hvm-12" value="The watchdog just started and is checking with the Teensy if the hardware is working as expected" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=14;" vertex="1" parent="w1cTL_5jENOIp_l14Hvm-10">
+          <mxGeometry x="110" width="110" height="350" as="geometry">
+            <mxRectangle width="110" height="350" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w1cTL_5jENOIp_l14Hvm-13" value="N.A." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=14;align=center;" vertex="1" parent="w1cTL_5jENOIp_l14Hvm-10">
+          <mxGeometry x="220" width="110" height="350" as="geometry">
+            <mxRectangle width="110" height="350" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w1cTL_5jENOIp_l14Hvm-14" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="w1cTL_5jENOIp_l14Hvm-1">
+          <mxGeometry y="813" width="330" height="412" as="geometry" />
+        </mxCell>
+        <mxCell id="w1cTL_5jENOIp_l14Hvm-15" value="Defect" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=14;" vertex="1" parent="w1cTL_5jENOIp_l14Hvm-14">
+          <mxGeometry width="110" height="412" as="geometry">
+            <mxRectangle width="110" height="412" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w1cTL_5jENOIp_l14Hvm-16" value="The hardware is defect and the watchdog is blocking commands from passing" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=14;" vertex="1" parent="w1cTL_5jENOIp_l14Hvm-14">
+          <mxGeometry x="110" width="110" height="412" as="geometry">
+            <mxRectangle width="110" height="412" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w1cTL_5jENOIp_l14Hvm-17" value="Check feedback signal from galvo&#39;s and check controller output" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=14;align=left;" vertex="1" parent="w1cTL_5jENOIp_l14Hvm-14">
+          <mxGeometry x="220" width="110" height="412" as="geometry">
+            <mxRectangle width="110" height="412" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w1cTL_5jENOIp_l14Hvm-18" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="w1cTL_5jENOIp_l14Hvm-1">
+          <mxGeometry y="1225" width="330" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="w1cTL_5jENOIp_l14Hvm-19" value="Unsafe operation&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=14;" vertex="1" parent="w1cTL_5jENOIp_l14Hvm-18">
+          <mxGeometry width="110" height="135" as="geometry">
+            <mxRectangle width="110" height="135" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w1cTL_5jENOIp_l14Hvm-20" value="The current operation is not safe and will not be passed on to the hardware" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=14;" vertex="1" parent="w1cTL_5jENOIp_l14Hvm-18">
+          <mxGeometry x="110" width="110" height="135" as="geometry">
+            <mxRectangle width="110" height="135" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w1cTL_5jENOIp_l14Hvm-21" value="Make sure you do not produce a static beam for example" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=14;align=left;" vertex="1" parent="w1cTL_5jENOIp_l14Hvm-18">
+          <mxGeometry x="220" width="110" height="135" as="geometry">
+            <mxRectangle width="110" height="135" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EmIdqMnqQ9r8d723kDUw-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EmIdqMnqQ9r8d723kDUw-1" target="EmIdqMnqQ9r8d723kDUw-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EmIdqMnqQ9r8d723kDUw-1" value="Turn lasers on" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="572.5" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EmIdqMnqQ9r8d723kDUw-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EmIdqMnqQ9r8d723kDUw-4" target="jowz4eYxVe9TDLc-qTf2-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EmIdqMnqQ9r8d723kDUw-7" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="EmIdqMnqQ9r8d723kDUw-6">
+          <mxGeometry x="-0.2543" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EmIdqMnqQ9r8d723kDUw-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="EmIdqMnqQ9r8d723kDUw-4" target="Ts09NpvepvUMqNH7My1E-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EmIdqMnqQ9r8d723kDUw-11" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="EmIdqMnqQ9r8d723kDUw-10">
+          <mxGeometry x="-0.7856" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EmIdqMnqQ9r8d723kDUw-4" value="Watchdog detects laser output from Teensy" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="564" y="990" width="137.5" height="140" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

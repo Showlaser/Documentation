@@ -1,0 +1,27 @@
+Laser versie 4 
+
+laser projector verbeteringen
+1. Oled display met rotary encoder, voor het instellen van de laser
+2. Scanfail
+3. Scanfail aan / uit knop
+4. 40kpps galvo scanners
+5. Verbeterd communicatie protocol
+6. Een monitoring systeem
+7. Beam stop d.m.v. solenoid
+8. Ilda aansluiting
+9. Dikkere ophangbeugel met beter vergrendelsysteem
+10. Interlocks voor het werken met de laser
+11. Nieuwe behuizing met efficienter laser pad door geen spiegel te gebruiken en een beter schuif mechanisme dat niet zijwaards kan bewegen
+12. Grotere aan uit knop
+13. Andere op amp voor lasers en spiegels voor 
+14. Temperatuur sensor
+15. Grotere json arrays ondersteunen
+16. Octocoupler tussen laseraansluitingen voor het afsluiten van de communicatiesignalen
+17. Versienummer geven voor vermogen en scanners
+
+Laser software verbeteringen
+1. Ondersteuning voor meerdere lasers
+2. Verbeterd communcatie protocol voor snellere galvo's en minder haperingen
+3. Telemetry tussen de laser en de software
+4. Versienummer weergeven in software
+5. Gebruik maken van typescript

@@ -1,0 +1,8 @@
+Oude ontwerp:
+teensy
+stroomaansluiting
+laser output pwm
+scanner output pwm
+
+Nieuwe ontwerp:
+voor laag doorlaat filter unpolarized capacitor gebruiken
